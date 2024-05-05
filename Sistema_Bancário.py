@@ -16,7 +16,7 @@ saldo = 0
 numero_saques= 0
 extrato=""
 
-while True:
+while True: #REPETIDOR
 
     x=int(input("Digite um numero:"))
 
@@ -52,6 +52,6 @@ while True:
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("==========================================")
     elif x==4:
-        break
+        break #FINALIZA A REPETIÇÃO AO SER ATIVADO "X==4:"
     else:
         print("Numero incorreto tente novamente: ")

@@ -29,9 +29,9 @@ print(frutas[2]) #uva
 #          [0]       [1]      [2]     [3]
 frutas = ("maçã", "laranja", "uva", "pera",) 
 
-frutas[-1]
+frutas[-1]  #laranja
 
-frutas[-3] 
+frutas[-3]  #pera
 
 print(frutas[-1]) #pera
 

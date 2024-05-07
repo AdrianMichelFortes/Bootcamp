@@ -17,9 +17,9 @@ pais = ("Brasil",) # Novamente uma virgula no final para deixar mais claro que �
 #          [0]       [1]      [2]     [3]
 frutas = ("maçã", "laranja", "uva", "pera",) 
 
-frutas[0]
+frutas[0] #maçã
 
-frutas[2]
+frutas[2] #uva 
 
 print(frutas[0]) #maçã
 

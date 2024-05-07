@@ -117,6 +117,6 @@
 #print  ("laranja" in Frutas)
 #print  ("banana" not in Frutas) #É utilizado "not in" para saber se o item não está na lista
 #print  ("python" in Curso)
-#print  ("limão" in Frutas) #É utilizado "in" para saber se um item está na lista 
+#print  ("limão" in Frutas) #É utilizado "in" para saber se um item está na lista
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------#

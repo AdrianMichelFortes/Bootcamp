@@ -117,7 +117,7 @@ print(linguagens.index("python"))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
-# len usado para saber o tamanho da tupla ou lista
+# len usado para saber o tamanho da tupla ou lista.
 
 linguagens = ("python", "js", "c", "java", "csharp",)  
 len (linguagens) #5 

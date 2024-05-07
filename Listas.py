@@ -1,4 +1,4 @@
-#Lista:
+#Lista: Podem sofrer alterações dentro da lista diferente da tupla que não pode sofrer alterações 
 
 frutas = ["laranja", "banana", "uva"] #AQUI ESTÁ COMO SERÁ NORMALMENTE FEITO UMA LISTA COM ITENS DENTRO
 print("laranja" in frutas) #VERIFICAR SE A PALAVRA ESTÁ NA LISTA "LARANJA" (in) FALSE OR TRUE
@@ -83,7 +83,7 @@ print (Lista[::-1])
 
 #Iterar lista:
 
-carros = ["gol", "celta", "palio",]
+carros = ["gol", "celta", "palio"]
 
 for carro in carros:
     print(carro)
@@ -170,8 +170,8 @@ print(linguagens)
               # [0]     [1]    [2]   [3]      [4]
 linguagens = ["python", "js", "c", "java", "csharp"]
 
-linguagens.index("java")
-linguagens.index("python")
+linguagens.index("java")   #3
+linguagens.index("python") #0
 
 print(linguagens.index("java"))
 print(linguagens.index("python"))
@@ -213,13 +213,13 @@ print(linguagens)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
-#.sort Utilizado para trocar os itens de decrescente para crescente ou vice versa
+# .sort Utilizado para trocar os itens de decrescente para crescente ou vice versa
 
 linguagens = ["python", "js", "c", "java", "csharp"] 
-linguagens.sort() #["c", "csharp", "java", "js", "python"] <---------- resultado usando .sort
+linguagens.sort() #["c", "csharp", "java", "js", "python"] <---------- resultado usando .sort (ordem alfabetica)
 
 linguagens = ["python", "js", "c", "java", "csharp"] 
-linguagens.sort(reverse=True) #["python", "js", "java", "csharp", "c"] 
+linguagens.sort(reverse=True) #["python", "js", "java", "csharp", "c"] (ordem alfabetica) porém da direita pra esquerda
 
 linguagens = ["python", "js", "c", "java", "csharp"] 
 linguagens.sort(key=lambda x: len (x)) #["c", "js", "java", "python", "csharp"] <--------- lista na ordem crescente em letras 

@@ -52,6 +52,8 @@ Durante os estudos foram desenvolvidos diversos exercícios e aplicações prát
 
 - 📌 Sistema Bancário
 - 📌 Sistema Bancário 2.0
+- 📌 Sistema Bancário 3.0
+- 📌 Sistema Bancário 4.0
 - 📌 Exercícios sobre lógica de programação
 - 📌 Exercícios utilizando estruturas de dados
 - 📌 Exercícios de Programação Orientada a Objetos

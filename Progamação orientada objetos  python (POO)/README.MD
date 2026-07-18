@@ -1,1 +1,0 @@
-Revizado 2026

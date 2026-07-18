@@ -55,3 +55,4 @@ while True: #REPETIDOR
         break #FINALIZA A REPETIÇÃO AO SER ATIVADO "X==4:"
     else:
         print("Numero incorreto tente novamente: ")
+
